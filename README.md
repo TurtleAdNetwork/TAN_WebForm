@@ -12,6 +12,7 @@ Web Form for submitting Ads, utilizes the TurtleShell web extension, for Paying 
 **formsubmission.html:** Front-end html code, to create the form view.<br>
 **process.js:** Javascript that does all the magic. Please make sure to insert 'process.js' in the same directory as the frontend html.<br>
 **Inserting multiple websites:** Simply edit 'process.js' and include the details, as below, each new entry please increase the index value.
+
 ```
 $(document).ready(function () {
     let websites = [{
@@ -34,4 +35,3 @@ $(document).ready(function () {
         digits: '8',
         amountImpressions: '25'
     }
-    ```
