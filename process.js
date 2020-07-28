@@ -11,8 +11,8 @@ $(document).ready(function () {
     },
     {
         index: 1,
-        website: 'RapydBlok.com',
-        address: '3Jhhq39fSg6y44EDSf8xprHGWaKfdphBjbR',
+        website: 'AddWebsiteName',
+        address: 'AddAddress',
         currency: 'TN',
         price: '100000000',
         assetId: 'TN',
